@@ -1,33 +1,45 @@
-#ifndef MAIN_H_INCLUDED
-
-#define MAIN_H_INCLUDED
+#include "main.h"
 
 
 
-int _putchar(char c);
 
-void print_alphabet(void);
 
-void print_alphabet_x10(void);
+/**
 
-int _islower(int c);
+ * main - Entry point
 
-int _isalpha(int c);
+ *
 
-int print_sign(int n);
+ * Return: nothing, return void
 
-int _abs(int n);
+ */
 
-int print_last_digit(int n);
 
-void jack_bauer(void);
 
-void times_table(void);
+int main(void)
 
-int add(int a, int b);
+{
 
-void print_to_98(int n);
+_putchar('_');
 
-void print_times_table(int n);
+_putchar('p');
 
-#endif
+_putchar('u');
+
+_putchar('t');
+
+_putchar('c');
+
+_putchar('h');
+
+_putchar('a');
+
+_putchar('r');
+
+_putchar('\n');
+
+
+
+return (0);
+
+}
